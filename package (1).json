@@ -1,0 +1,11 @@
+{
+  "name": "cancer-prediction-system",
+  "version": "2.0.0",
+  "description": "Cancer Prediction System with React + Node.js frontend and Python backend",
+  "scripts": {
+    "start": "node start.js",
+    "backend": "py backend/main.py",
+    "frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
